@@ -1,0 +1,195 @@
+
+#fsection{
+  background-color: #ff4c68;
+  height: 100vh;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem !important;
+  margin: 3.5% 7% 3% 3%;
+}
+.title-text{
+    padding-left: 130px !important;
+    margin-top: 109px !important;
+
+}
+.title{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 7%;
+}
+.row{
+  width: 100%;
+}
+.title-img{
+  height: 100%;
+  margin-left: 11.5%;
+  transform: rotate(25deg);
+}
+#features{
+  position: relative;
+  padding: 10%;
+  background-color: white;
+  z-index: 1;
+}
+.features-box{
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+p{
+  padding: 3% 17%;
+}
+#testimonials{
+  text-align: center;
+  padding: 0 15%;
+  background-color: #ef8172;
+}
+.nav-links{
+  margin: 0 29% 10% 5%;
+}
+.test-head {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+
+}
+.nav-item{
+  font-size: 140%;
+  margin-right: 40%;
+}
+.btn{
+  padding-top: 5%;
+  padding-left: 5%;
+  margin-left: 5%;
+}
+.simg{
+  color: #ef8172;
+  padding-bottom: 10%;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+.press-logo{
+  padding-top: 3%;
+  padding-bottom: 10%;
+  width: 20%;
+  padding-left: 2.5%;
+  padding-right: 2.5%
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 150px;
+  margin-top: 7%;
+  margin-bottom: 12%;
+
+}
+.carousel-control-next,.carousel-control-prev{
+  margin-top: 25%;
+}
+.testimonial-text{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-family: 'Poppins', sans-serif;
+}
+.price-text{
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.price-heading{
+  font-family: auto;
+  font-weight: bolder;
+  font-size: 299%;
+}
+.price-para{
+  margin-bottom: 5%;
+  color: gray;
+}
+.priceing{
+  margin-left: 20%;
+}
+.price-button{
+  background-color: white;
+  width: 50%;
+}
+.card{
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+.price-section{
+  text-align: center;
+}
+.fluid-container{
+  background-color: #ff4c68;
+  height: 25%;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: white;
+}
+.price-button{
+  color: gray;
+}
+#cta{
+  margin-top: 10%;
+}
+.cta-text{
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 250%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.cta-btn{
+  margin-bottom: 5%;
+}
+.social-link{
+  color: gray;
+  text-align: center;
+  margin-top: 3.5%;
+  margin-bottom: 3%;
+}
+.social-icon{
+  color: gray;
+  padding-left: 6%;
+}
+.social-text{
+  margin-left: 7%;
+}
+@media (max-width: 992px){
+  .fsection{
+    height: auto;
+  }
+  .navbar{
+    padding-bottom: 0;
+  }
+  .title{
+    font-size: 2.5rem;
+  }
+  .row{
+    text-align: center;
+  }
+  .title-text{
+    padding: 0 !important;
+    }
+
+.title-img{
+  position: static;
+  transform: rotate(0);
+  padding-top: 5%;
+}
+.navbar-brand{
+  margin-bottom: 0.5% ;
+}
+}
